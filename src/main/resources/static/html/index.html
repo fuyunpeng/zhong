@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title11111</title>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style type="text/css">
+    body{
+        height: 100%;
+    }
+
+   .img-banner{
+       position: absolute;
+        width: 100%;
+       height: 100%;
+   }
+
+    .carousel-inner{
+        width: 100%;
+        height: 100%;
+    }
+
+    #myCarousel{
+        width: 100%;
+        height: 600px;
+    }
+</style>
+
+<body>
+
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active " >
+            <img src="../img/1.jpg"  alt="...">
+            <div class="carousel-caption">
+                <h3>...</h3>
+                <p>...</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="../img/2.jpg"  alt="...">
+            <div class="carousel-caption">
+                <h3>...</h3>
+                <p>...</p>
+            </div>
+        </div>
+
+        <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;
+    </a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="next">&rsaquo;
+    </a>
+</div>
+
+
+</body>
+</html>
